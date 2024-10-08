@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("Background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+    
+}
+.container{
+    width: 480px;
+    min-height: 300px;
+    background-color: rgba(255, 255, 255, 0.01);
+    display: flex;
+    flex-direction: column;
+    color: white; 
+    border-radius: 15px;  
+    background-color: transparent; 
+    backdrop-filter: blur(2px);
+    padding: 5px;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.468);
+    border-left:0.1px solid rgba(255, 255, 255, 0.445) ;
+    box-shadow: 2px 2px 20px black;
+}
+.container h1{
+    
+    font-size: 45px;
+    text-align: center;
+    transform: translateY(50%);  
+    margin-bottom: 15%;
+     
+}
+.container .input{
+    width: 100%;
+    height: 75px;
+    margin: 10%;
+    transform: translateX(-10%);
+    
+    
+    
+}
+.input input{
+    height: 100%;
+    width: 100%;
+    
+    background-color: transparent;
+    border-radius: 45px;
+    border-color: rgba(255, 255, 255, 0.278);
+    border: solid;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
+.container .forgot{
+    margin-top: -8%;
+    margin-left: 2% ;
+    font-size: 18px;
+}
+.container .submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.submit button{
+    height: 50px;
+    width: 120px;
+    
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to bottom right, #2E3192 , #1Bffff);
+    color: white;
+    font-size: 18px;
+}
+.container .su{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-size: 18px;
+}
+
+

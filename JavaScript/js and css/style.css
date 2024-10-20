@@ -1,0 +1,41 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    padding-bottom: 110px;
+}
+.js-b{
+
+    height: 35px;
+    width: 100px;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700 ;
+    border: none;
+    cursor: pointer;
+    
+}
+.is-subbed{
+
+    height: 35px;
+    width: 100px;
+    border-radius: 45px;
+    background-color: #f0f0f0;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700 ;
+    border: none;
+}
+p{
+    font-size: larger;
+}
+
+input{
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left:15px ;
+    padding-right: 15px;
+}

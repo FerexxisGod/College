@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY LOGIN IN PAGE</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-        <form action="">
-            <h1>Login</h1>
-            <div class="input">
-                <input type="email" name="" id="" placeholder="Email">
-            </div>
-            <div class="input">
-                <input type="password" name="" id="" placeholder="Password">
-            </div>
-            <div class="forgot">
-                <a href="">Forgot Password?</a>
-            </div>
-            <div class="submit">
-                <button type="submit">Sign In</button>
-            </div>
-            <div class="su">
-                Don't have a account? <a href="">Sign Up</a>
-            </div>
-        </form>  
-    </div>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="rps.css">
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <p class="heading">Rock Paper Scissors</p>
+
+        <button onclick="output('Rock')" class="play">&#9994;
+        </button>
+
+        <button onclick="output('Paper')" class="play">&#128400;
+        </button>
+
+        <button onclick="output('Scissors')" class="play">&#9996;
+        </button>
+
+        <p class="js-output subclass"></p>
+        <p class="js-move move-subclass"></p>
+        <p class="js-score score"></p>
+        <button onclick="
+        score.wins = 0
+        score.losses = 0
+        score.ties = 0
+        localStorage.removeItem('score')
+        updateScoreELement()
+        " class="reset">
+            Reset score
+        </button>
+
+        <button class="reset" onclick="autoPlay()">
+            Auto Play
+        </button>
+        <script src="script.js"></script>
+    </body>
+</html> 
